@@ -244,22 +244,30 @@ body {
 }
 
 /* Redes sociales alineadas */
+/* Redes sociales alineadas */
 .social-icons {
     display: flex;
     gap: 15px;
-    align-items: center;
+    align-items: center; /* Centra verticalmente los íconos con el texto */
+    justify-content: flex-start; /* Alinea a la izquierda en PC */
 }
 
+/* En móviles, centra los íconos */
+@media (max-width: 768px) {
+    .social-icons {
+        justify-content: center;
+    }
+}
+
+/* Ajuste de las imágenes de redes sociales */
 .social-icons a img {
     width: 30px;
     height: 30px;
     transition: transform 0.3s;
-    align-items: center;
+    vertical-align: middle; /* Asegura que estén alineados con el texto */
+    display: inline-block;
 }
 
-.social-icons a img:hover {
-    transform: scale(1.1);
-}
 
 /* Pie de página */
 .footer-bottom {
