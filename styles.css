@@ -191,7 +191,8 @@ body {
 /* Contenedor del Footer con 2 columnas */
 .footer-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr; /* Cambia a una sola columna */
+    text-align: center; /* Centra los elementos */
     max-width: 500px;
     margin: 0 auto;
     gap: 200px;
