@@ -191,6 +191,7 @@ body {
 /* Contenedor del Footer con 2 columnas */
 .footer-container {
     display: grid;
+    text-align: center;
     grid-template-columns: repeat(2, 1fr); /* 2 columnas en PC */
     gap: 100px;
     padding: 40px 20px;
