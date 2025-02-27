@@ -31,6 +31,7 @@ body {
 .nav-menu ul {
     display: flex;
     list-style: none;
+    flex-wrap: wrap;
 }
 .nav-menu ul li {
     margin: 0 15px;
